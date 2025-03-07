@@ -14,4 +14,5 @@ local desiredWalkSpeed = 50 -- You can change this
 -- Changes speed character
 character:WaitForChild("Humanoid").WalkSpeed = desiredWalkSpeed
 
-print("Player speed changed on: " .. desiredWalkSpeed)```
+print("Player speed changed on: " .. desiredWalkSpeed)
+```
