@@ -2,14 +2,16 @@
 For roblox studio (idk)
 ____________________________________
 
-```-- Получаем ссылку на игрока и его персонажа
+```
+print("CREATED BY ZA_ANC")
+-- Get player and character
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 
--- Устанавливаем желаемую скорость
-local desiredWalkSpeed = 50 -- это значение можно изменить
+-- Make speed
+local desiredWalkSpeed = 50 -- You can change this
 
--- Изменяем скорость персонажа
+-- Changes speed character
 character:WaitForChild("Humanoid").WalkSpeed = desiredWalkSpeed
 
-print("Скорость персонажа изменена на: " .. desiredWalkSpeed)```
+print("Player speed changed on: " .. desiredWalkSpeed)```
